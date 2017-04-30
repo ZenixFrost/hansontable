@@ -1,0 +1,955 @@
+{
+  "node":[
+    {
+      "id" : 11001,
+      "name": "หมวดครุภัณฑ์",
+      "type": [],
+      "data": [],
+      "layer": 1,
+      "parent": []
+    },
+    {
+      "id" : 12001,
+      "name": "ครุภัณฑ์",
+      "type": [],
+      "data": [],
+      "layer": 2,
+      "parent": {
+        "id" : 11001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 1,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13001,
+      "name": "ครุภัณฑ์สำนักงาน",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14001,
+      "name": "ตู้เก็บเอกสาร",
+      "type": 1,
+      "data": {
+        "unit": "เครื่อง",
+        "amount": 12,
+        "cost": 1200,
+        "request": 1000,
+        "outRequest": 500,
+        "work": {
+          "reason": 1,
+          "attachment": 1,
+          "location": 1,
+          "image": 1
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14002,
+      "name": "ชั้นเก็บแฟ้ม 30 ช่อง",
+      "type": 1,
+      "data": {
+        "unit": "เครื่อง",
+        "amount": 4,
+        "cost": 2500,
+        "request": 2000,
+        "outRequest": 500,
+        "work": {
+          "reason": 0,
+          "attachment": 1,
+          "location": 0,
+          "image": 1
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14003,
+      "name": "เครื่องเจาะกระดาษไฮโดรลิก",
+      "type": 1,
+      "data": {
+        "unit": "เครื่อง",
+        "amount": 2,
+        "cost": 15000,
+        "request": 14500,
+        "outRequest": 500,
+        "work": {
+          "reason": 1,
+          "attachment": 0,
+          "location": 1,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13002,
+      "name": "ครุภัณฑ์โฆษณาและเผยแพร่",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14004,
+      "name": "กล้องดิจิตอล ความละเอียดไม่น้อยกว่า 18 ล้านพิเซล",
+      "type": 1,
+      "data": {
+        "unit": "ตัว",
+        "amount": 2,
+        "cost": 12000,
+        "request": 11500,
+        "outRequest": 500,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13002,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13003,
+      "name": "ครุภัณฑ์ไฟฟ้า",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14005,
+      "name": "เครื่องบันทึกเสียง",
+      "type": 1,
+      "data": {
+        "unit": "เครื่อง",
+        "amount": 5,
+        "cost": 15000,
+        "request": 14500,
+        "outRequest": 500,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13003,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13004,
+      "name": "ครุภัณฑ์คอมพิวเตอร์",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14006,
+      "name": "เครื่องคอมพิวเตอร์ แบบที่ 1",
+      "type": 1,
+      "data": {
+        "unit": "เครื่อง",
+        "amount": 50,
+        "cost": 22000,
+        "request": 20000,
+        "outRequest": 2000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13004,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14007,
+      "name": "เครื่องคอมพิวเตอร์ แบบที่ 2",
+      "type": 1,
+      "data": {
+        "unit": "เครื่อง",
+        "amount": 5,
+        "cost": 45000,
+        "request": 40000,
+        "outRequest": 5000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13004,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 12002,
+      "name": "ครุภัณฑ์นอกสถานที่",
+      "type": [],
+      "data": [],
+      "layer": 2,
+      "parent": {
+        "id" : 11001,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 1,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13005,
+      "name": "ครุภัณฑ์สนามกีฬา",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12002,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14008,
+      "name": "ลูกฟุตบอล",
+      "type": 1,
+      "data": {
+        "unit": "ลูก",
+        "amount": 20,
+        "cost": 200,
+        "request": 150,
+        "outRequest": 50,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13005,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14009,
+      "name": "ลูกปิงปอง",
+      "type": 1,
+      "data": {
+        "unit": "ลูก",
+        "amount": 100,
+        "cost": 50,
+        "request": 45,
+        "outRequest": 5,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13005,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 11002,
+      "name": "หมวดอาวุธยุทโธปกรณ์",
+      "type": [],
+      "data": [],
+      "layer": 1,
+      "parent": []
+    },
+    {
+      "id" : 12003,
+      "name": "ยุทโธปกรณ์ทหารกองทัพบก",
+      "type": [],
+      "data": [],
+      "layer": 2,
+      "parent": {
+        "id" : 11002,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 1,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13006,
+      "name": "อาวุธยุทโธปกรณ์",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12003,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14010,
+      "name": "ปืน M16A2",
+      "type": 1,
+      "data": {
+        "unit": "กระบอก",
+        "amount": 1000,
+        "cost": 25000,
+        "request": 20000,
+        "outRequest": 5000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13006,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14011,
+      "name": "ปืน Barrett M82 .50 Cal - American",
+      "type": 1,
+      "data": {
+        "unit": "กระบอก",
+        "amount": 10,
+        "cost": 255000,
+        "request": 250000,
+        "outRequest": 5000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13006,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13007,
+      "name": "ยานภาหนะ",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12003,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14012,
+      "name": "รถถังราดตระเวน",
+      "type": 1,
+      "data": {
+        "unit": "คัน",
+        "amount": 10,
+        "cost": 5000000,
+        "request": 4500000,
+        "outRequest": 50000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13007,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14013,
+      "name": "รถถังประจันบาน",
+      "type": 1,
+      "data": {
+        "unit": "คัน",
+        "amount": 3,
+        "cost": 10000000,
+        "request": 9000000,
+        "outRequest": 1000000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13007,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13008,
+      "name": "อื่นๆ",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12003,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14014,
+      "name": "รั้วกั้น",
+      "type": 1,
+      "data": {
+        "unit": "แผง",
+        "amount": 1000,
+        "cost": 1000,
+        "request": 900,
+        "outRequest": 100,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13008,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14015,
+      "name": "อุปกรณ์สื่อสารระยะใกล้",
+      "type": 1,
+      "data": {
+        "unit": "เครื่อง",
+        "amount": 20,
+        "cost": 24000,
+        "request": 23000,
+        "outRequest": 1000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13008,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 12004,
+      "name": "ยุทโธปกรณ์ทหารกองทัพเรือ",
+      "type": [],
+      "data": [],
+      "layer": 2,
+      "parent": {
+        "id" : 11002,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 1,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13009,
+      "name": "อาวุธยุทโธปกรณ์",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12004,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14016,
+      "name": "ปืน M16A2",
+      "type": 1,
+      "data": {
+        "unit": "กระบอก",
+        "amount": 1500,
+        "cost": 25000,
+        "request": 20000,
+        "outRequest": 5000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13009,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13010,
+      "name": "ยานภาหนะ",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12004,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14017,
+      "name": "เรือเล็กควรออกจากฝั่ง",
+      "type": 1,
+      "data": {
+        "unit": "ลำ",
+        "amount": 10,
+        "cost": 2500000,
+        "request": 2000000,
+        "outRequest": 500000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13010,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14018,
+      "name": "เรือดำน้ำ",
+      "type": 1,
+      "data": {
+        "unit": "ลำ",
+        "amount": 2,
+        "cost": 10000000,
+        "request": 10000000,
+        "outRequest": 0,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13010,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13011,
+      "name": "อื่นๆ",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12004,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14019,
+      "name": "เสื้อชูชีพ",
+      "type": 1,
+      "data": {
+        "unit": "ชุด",
+        "amount": 2000,
+        "cost": 1000,
+        "request": 900,
+        "outRequest": 100,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13011,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 12005,
+      "name": "ยุทโธปกรณ์ทหารกองทัพอากาศ",
+      "type": [],
+      "data": [],
+      "layer": 2,
+      "parent": {
+        "id" : 11002,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 1,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13012,
+      "name": "อาวุธยุทโธปกรณ์",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12005,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14020,
+      "name": "ปืนพกขนาดเล็ก 9มม",
+      "type": 1,
+      "data": {
+        "unit": "กระบอก",
+        "amount": 500,
+        "cost": 20000,
+        "request": 16000,
+        "outRequest": 4000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13012,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14021,
+      "name": "มีด combat knife",
+      "type": 1,
+      "data": {
+        "unit": "เล่ม",
+        "amount": 1000,
+        "cost": 4000,
+        "request": 3000,
+        "outRequest": 1000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13012,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13013,
+      "name": "ยานภาหนะ",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12005,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14022,
+      "name": "เฮลิคอปเตอร์",
+      "type": 1,
+      "data": {
+        "unit": "ลำ",
+        "amount": 20,
+        "cost": 1000000,
+        "request": 900000,
+        "outRequest": 100000,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13013,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14023,
+      "name": "เครื่องบิน เจ็ท GE Honda HF 120",
+      "type": 1,
+      "data": {
+        "unit": "ลำ",
+        "amount": 2,
+        "cost": 15000000,
+        "request": 15000000,
+        "outRequest": 0,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13013,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    },
+    {
+      "id" : 13014,
+      "name": "อื่นๆ",
+      "type": 0,
+      "data": [],
+      "layer": 3,
+      "parent": {
+        "id" : 12005,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 2,
+        "parent": []
+      }
+    },
+    {
+      "id" : 14024,
+      "name": "ร่มชูชีพ",
+      "type": 1,
+      "data": {
+        "unit": "ชุด",
+        "amount": 2000,
+        "cost": 1000,
+        "request": 900,
+        "outRequest": 100,
+        "work": {
+          "reason": 0,
+          "attachment": 0,
+          "location": 0,
+          "image": 0
+        }
+      },
+      "layer": 4,
+      "parent": {
+        "id" : 13014,
+        "name": [],
+        "type": [],
+        "data": [],
+        "layer": 3,
+        "parent": []
+      }
+    }
+
+  ]
+}
+
